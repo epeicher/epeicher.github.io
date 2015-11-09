@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Currently working at [Sequel](http://www.sequel.com). A number of years of experience
+developing software but of course still a novice. Sometimes architect, sometimes software designer, business analyst, tester... but always Software Developer.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Married, still in love and father of two children. I like playing [Padel](https://es.wikipedia.org/wiki/Pádel), reading, cinema and I ussually smile.

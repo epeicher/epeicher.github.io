@@ -1,25 +1,29 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to a new Universe!"
 date:   2015-11-09 22:27:41 +0100
-categories: jekyll update
+categories: general
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Well, well, well... Machine Learner. What is that? It sounds like Machine Learning, doesn't it? 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Mmm yeah. You know, if you read the introduction it says that I like learning and now my new endeavour is about Machine Learning.
 
-Jekyll also offers powerful support for code snippets:
+But that is a Universe! Are you crazy?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Probably not, probably this is kind of *champaigne effect* which means that it starts
+really sparkling but with time it just gets flat.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+But who cares? I like champaigne from time to time so let's have some!
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Tomorrow I will start trying to use a Cascade Classiffier to train a model for the
+[Kaggle Face Detection][face] competition. I have *tried* to read the paper the
+classifier is based on [here][viola] but it is just too much for the moment.
+
+I will also try to follow the tutorial included in the competition and see how it
+goes.
+
+Well tomorrow more...
+
+[viola]: http://www.vision.caltech.edu/html-files/EE148-2005-Spring/pprs/viola04ijcv.pdf
+[kaggle]: http://www.kaggle.com
+[face]: https://www.kaggle.com/c/facial-keypoints-detection
