@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Only Infrastructure"
+date:   2015-11-10T23:40:07+01:00
+categories: general
+---
+Today it has been one of those *infrastructure days*, I have tried to launch an instance
+of an EC2 Amazon virtual machine and install all the requirements required for 
+[Theano][theano] and [Lasagne][lasagne] python packages but as expected I have 
+had some problems.
+
+My first try was to use a micro instance of Linux (because it is *free*) but errors 
+aroused installing matplotlib which was a dependency of the above packages. Finally I was 
+able to install it with `apt-get install python-matplotlib` if I remember correctly and 
+after some tweaks here and there the packages were working and the [Lasagne][lasagne] 
+*Hello World* was running... Then? What was the problem? Well, the script was taking
+ages to complete and eventually the terminal disconnected because of *errors*.
+
+Eventually I launched the recommended instance of the [tutorial][deep_tut] and the Lasagne
+script worked as a charm (I just needed to spend some money!).
+
+### Things I've learned today
+- Spot Instances in Amazon are cheaper but they cannot be stopped
+- Using PuTTY to connect through SSH to an EC2 Linux instance is straightforward if 
+you have your Key. Just remember to use the proper identifier and public IP.
+- Installing matplotlib on Linux is not as straightforward as expected.
+
+Tomorrow I will carry on working on the [Tutorial][deep_tut]. Wish me good luck!
+
+
+[deep_tut]: https://www.kaggle.com/c/facial-keypoints-detection/details/deep-learning-tutorial
+[theano]: http://deeplearning.net/software/theano/
+[lasagne]: http://lasagne.readthedocs.org/en/latest/user/installation.html
